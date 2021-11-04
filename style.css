@@ -129,3 +129,22 @@ hr {
     font-size: 0.8rem;
     color: #939496;
 }
+@media only screen and (max-width: 400px){
+    .box{
+        transform: scale(2.0);
+        margin: 26rem;
+    }
+    .attribution{
+        width: max-content;
+    }
+    .bottom{
+        position: absolute;
+        left: 35rem;
+        top: 46rem;
+    }
+    .top{
+        position: absolute;
+        left: -32rem;
+        top: -26rem;
+    }
+}
