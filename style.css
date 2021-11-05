@@ -131,8 +131,8 @@ hr {
 }
 @media only screen and (max-width: 400px){
     .box{
-        transform: scale(2.0);
-        margin: 13rem 1rem 1rem 1rem;
+
+        margin: 8rem 1rem 1rem 1rem;
         display: flex;
         flex-direction: column;
     }
@@ -141,12 +141,12 @@ hr {
     }
     .bottom{
         position: absolute;
-        left: 35rem;
-        top: 46rem;
+        left: 9rem;
+        top: 26rem;
     }
     .top{
         position: absolute;
-        left: -32rem;
-        top: -26rem;
+        left: -47rem;
+        top: -30rem;
     }
 }
