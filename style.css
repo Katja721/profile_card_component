@@ -132,7 +132,9 @@ hr {
 @media only screen and (max-width: 400px){
     .box{
         transform: scale(2.0);
-        margin: 26rem;
+        margin: 13rem 1rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;
     }
     .attribution{
         width: max-content;
