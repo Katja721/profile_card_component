@@ -130,9 +130,11 @@ hr {
     color: #939496;
 }
 @media only screen and (max-width: 400px){
+    body{
+        overflow: hidden;
+    }
     .box{
-
-        margin: 8rem 1rem 1rem 1rem;
+        margin: 8rem 1rem 8rem 1rem;
         display: flex;
         flex-direction: column;
     }
